@@ -1,0 +1,12 @@
+<h1>Sähkön tuntihinnat</h1>
+<Table>
+    <tr>
+        <th>Kello</th>
+        <th>Hinta snt/kWh</th>
+    </tr>
+    {{#each hourlyPrices}}
+    <tr>
+        <td>{{hour}}</td>
+        <td>{{price}}</td>
+    {{/each}}
+</Table>
